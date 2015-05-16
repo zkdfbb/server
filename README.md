@@ -1,6 +1,6 @@
 #必装软件
 ```shell
-yum install -y vim net-tools wget gcc gcc-c++ autoconf automake readline-devel pcre-devel openssl-devel lrzsz tcl unzip bc mariadb-server mariadb-client MySQL-python python-setuptools python-devel git zlib-devel freetype freetype-devel libpng libpng-devel zlib zlib-devel libjpeg libjpeg-devel
+yum install -y vim net-tools wget gcc gcc-c++ autoconf automake readline-devel pcre-devel openssl-devel lrzsz tcl unzip bc mariadb-server mariadb-client MySQL-python python-setuptools python-devel git zlib-devel freetype freetype-devel libpng libpng-devel zlib zlib-devel libjpeg libjpeg-devel libxml2-devel libxslt-devel
 ```
 
 #可选软件
@@ -16,6 +16,7 @@ wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.3.tgz
 wget http://alioth.debian.org/frs/download.php/3015/axel-2.4.tar.gz
 wget https://github.com/pypa/pip/archive/6.1.1.tar.gz
 ```
+
 
 #Python库
 ```shell
