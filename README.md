@@ -1,3 +1,6 @@
+#说明
+CentOS7 系统初始化，安装必要的软件，留作记录。
+
 #必装软件
 ```shell
 yum install -y vim net-tools wget gcc gcc-c++ autoconf automake readline-devel pcre-devel openssl-devel lrzsz tcl unzip bc mariadb-server mariadb-client MySQL-python python-setuptools python-devel git zlib-devel freetype freetype-devel libpng libpng-devel zlib zlib-devel libjpeg libjpeg-devel libxml2-devel libxslt-devel
@@ -32,4 +35,5 @@ systemctl start nginx
 #开机启动服务
 ```shell
 systemctl enable mariadb
+systemctl enable nginx
 ```
