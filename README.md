@@ -41,7 +41,7 @@ systemctl enable nginx
 
 #Ubuntu系统初始化，安装必要的软件，留作记录。
 ```shell
-sudo apt-get install nautilus-open-terminal unrar p7zip-rar p7zip-full  gconf-editor build-essential cmake vim  ctags nginx ipython  python-pip python-dev  git  subversion redis-server python-redis compizconfig-settings-manager  compiz-plugins-extra curl libcurl4-gnutls-dev -y
+sudo apt-get install nautilus-open-terminal unrar p7zip-rar p7zip-full  gconf-editor build-essential cmake vim  ctags nginx ipython  python-pip python-dev  git  subversion redis-server python-redis compizconfig-settings-manager  compiz-plugins-extra curl libcurl4-gnutls-dev zlib1g-dev -y
 
 sudo pip install  gevent  greenlet  selenium  beautifulsoup4  html5lib  lxml  chardet  tornado  pycurl  pymongo  redis  requests  rsa  poster
 ```
