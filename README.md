@@ -1,5 +1,4 @@
-#说明
-CentOS7 系统初始化，安装必要的软件，留作记录。
+#CentOS7 系统初始化，安装必要的软件，留作记录。
 
 #必装软件
 ```shell
@@ -36,4 +35,20 @@ systemctl start nginx
 ```shell
 systemctl enable mariadb
 systemctl enable nginx
+```
+
+
+
+#Ubuntu系统初始化，安装必要的软件，留作记录。
+```shell
+sudo apt-get install nautilus-open-terminal unrar p7zip-rar p7zip-full  gconf-editor build-essential cmake vim  ctags nginx ipython  python-pip python-dev  git  subversion redis-server python-redis compizconfig-settings-manager  compiz-plugins-extra curl libcurl4-gnutls-dev -y
+
+sudo pip install  gevent  greenlet  selenium  beautifulsoup4  html5lib  lxml  chardet  tornado  pycurl  pymongo  redis  requests  rsa  poster
+```
+
+可选安装
+```shell
+sudo apt-get install lrzsz indent smplayer cairo-dock cairo-dock-plugins chmsee fcitx gedit-plugins mysql-server mysql-client libmysqld-dev python-memcache 
+
+sudo pip install mysql-python  torndb  python-wordpress-xmlrpc evernote
 ```
